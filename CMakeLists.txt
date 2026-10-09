@@ -13,7 +13,7 @@ add_library(CalcLib
 
 enable_testing()
 
-# Подключаем GoogleTest через FetchContent
+# GoogleTest FetchContent
 include(FetchContent)
 FetchContent_Declare(
   googletest
